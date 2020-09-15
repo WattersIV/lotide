@@ -1,5 +1,5 @@
 
-const eqArrays = function (arr1, arr2) {
+const assertArraysEqual = function (arr1, arr2) {
   let equalLen = false; 
   const notSame = 'These are not equal'; 
   const same = 'These are equal';
@@ -20,4 +20,5 @@ const eqArrays = function (arr1, arr2) {
   return 0;
 }
 
-eqArrays([1, 2, 3, 5], [1, 2, 3]), true; // => should PASS
+assertArraysEqual([1, 2, 3], [1, 2, 3]), true; // => should PASS 
+assertArraysEqual(["hello", "world", "lighthouse"], ["hello", "world"]), true; // => should FAIL
