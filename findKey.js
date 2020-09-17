@@ -20,12 +20,7 @@ for (let i = 0; i < keys.length; i++) {
   }  
 }
 
-//   for (prop in object) {
-//     if (callback(prop[i])) {
-//       output += prop[i];
-//     }
-//   } 
-// }
+
 
 findKey({
   "Blue Hill": { stars: 1 },
