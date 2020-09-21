@@ -58,14 +58,5 @@ const eqObjects = function(object1, object2) {
   return true;
 }; 
 
-// const a = { aa: 't', w: 'y'}; 
-// const b = { w: 'y', aa: 't'}; 
-// assertEqual(eqObjects(a, b), true); 
-
-const cd = { c: "1", d: ["2", 3] };
-const dc = { d: ["2", 3], c: "1" };
-assertEqual(eqObjects(cd, dc), true); // => true
-
-const cd2 = { c: "1", d: ["2", 3, 4] };
-assertEqual(eqObjects(cd, cd2), false); // => fail 
+module.exports = eqObjects;
 

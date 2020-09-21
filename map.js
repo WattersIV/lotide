@@ -27,7 +27,4 @@ const assertArraysEqual = function (arr1, arr2) {
   return 0;
 }
 
-const words = ["g", "c", "t", "m", "t"];
-results1 = assertArraysEqual(map(words, word => word[0]), words);
-console.log(results1);  
-
+module.exports = map;
